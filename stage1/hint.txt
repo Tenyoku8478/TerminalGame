@@ -1,0 +1,3 @@
+This is stage1.
+You can find the flag at the end of the book.
+

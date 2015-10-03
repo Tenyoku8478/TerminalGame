@@ -1,0 +1,2 @@
+This is stage3.
+You can get the flag if you pass the test.

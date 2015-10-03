@@ -51,7 +51,13 @@ int main() {
 		}
 	}
 	
-	printf("Ok... This is the flag you want: 3dr99\n");
+	printf("Ok... This is the flag you want: \n");
+    putchar('3');
+    putchar('d');
+    putchar('r');
+    putchar('9');
+    putchar('9');
+    putchar('\n');
 	
 	return 0;
 }
