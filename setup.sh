@@ -1,7 +1,7 @@
 echo "Compiling source codes..."
 g++ ./stage1/gen.cpp -o ./stage1/gen
 ./stage1/gen >../book.txt
-ln -s ../book.txt ./stage1/book.txt
+ln -s /tmp2/`whoami`/book.txt ./stage1/book.txt
 
 g++ -std=c++11 ./stage2/EliseHome/talk_with_Elise.cpp -o ./stage2/EliseHome/talk_with_Elise
 g++ -std=c++11 ./stage2/JuiceShop/talk_with_shopkeeper.cpp -o ./stage2/JuiceShop/talk_with_shopkeeper
@@ -29,4 +29,4 @@ rm ./stage5/*.cpp -rf
 rm ./stage6/*.py -rf
 rm ./stage9/*.cpp -rf
 echo "Completed!"
-rm ./setup.sh
+rm $0
