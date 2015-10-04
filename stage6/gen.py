@@ -15,8 +15,5 @@ for i in range(100):
 
 random.shuffle(lines)
 
-output = open('flag_and_frog.txt', 'w')
 for line in lines:
-    output.write(line+'\n')
-
-output.close()
+    print(line)
