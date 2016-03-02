@@ -1,2 +1,3 @@
-I had heard the flag before, but I forgot it.
-If you want to know the flag, maybe you can find it in the previous version of my memory.
+just run getKey and follow the requirements.
+
+#keywords: pause the process, kill

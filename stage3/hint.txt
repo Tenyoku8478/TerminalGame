@@ -1,2 +1,6 @@
-This is stage3.
-You can get the flag if you pass the test.
+just create 100 files named '1', '2', '3'...., '100',
+for each file:
+    * if the file name "i" is an odd number, it should has a single number i as its content.
+    * if the file name "i" is an even number, it sould has a single number i*2 as its content.
+
+After the creation of files, run "getFlag" and you can get the flag.

@@ -1,5 +1,1 @@
-This is stage1.
-You can find the flag at the end of the book.
-the book is of flag is /tmp2/b02902062/book.txt
-*** do NOT copy this file to your own directory or your terminal will crash because of the large size of the file. ***
-
+just run getKey and follow the requirements.
