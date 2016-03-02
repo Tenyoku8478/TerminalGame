@@ -1,6 +1,6 @@
 echo "Compiling source codes..."
 g++ -std=c++11 ./stage1/getFlag.cpp -o ./stage1/getFlag
-g++ -std=c++11 ./stage1/bin/executable.cpp -o ./stage1/executable
+g++ -std=c++11 ./stage1/bin/executable.cpp -o ./stage1/bin/executable
 
 g++ -std=c++11 ./stage2/EliseHome/talk_with_Elise.cpp -o ./stage2/EliseHome/talk_with_Elise
 g++ -std=c++11 ./stage2/JuiceShop/talk_with_shopkeeper.cpp -o ./stage2/JuiceShop/talk_with_shopkeeper
